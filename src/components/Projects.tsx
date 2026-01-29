@@ -4,12 +4,24 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "TradePulse",
+    description: "Built a full-stack trading strategy backtester using Java and Spring Boot with a React + TypeScript frontend, enabling users to simulate mean reversion strategies on historical price data.",
+    tech: ["Java", "Spring Boot", "React", "TypeScript"],
+    highlights: [
+      "Built a full-stack trading strategy backtester using Java and Spring Boot with a React + TypeScript frontend, enabling users to simulate mean reversion strategies on historical price data.",
+      "Leveraged JUnit and Mockito, ensuring code reliability across market volatility and trade execution scenarios.",
+      "Designed RESTful APIs with JPA persistence, supporting backtest execution and historical result retrieval.",
+    ],
+    github: "https://github.com/krajani21/TradePulse",
+    gradient: "from-accent to-primary",
+  },
+  {
     title: "FuelWise",
-    description: "Engineered a fuel recommendation app that helps users achieve up to 8% cost savings and 7% fuel volume gain, serving 100+ users through live station pricing and geolocation analysis.",
+    description: "Engineered a fuel recommendation app using React, Node.js, and MongoDB that reduced fueling costs by 8% for 100+ users, by implementing live station price analysis and geolocation-based optimization.",
     tech: ["MongoDB", "Express.js", "Node.js", "React.js"],
     highlights: [
-      "Architected a 3-tier caching system with request collapsing and adaptive rate limiting, cutting API costs by 90% during peak usage",
-      "Ranked fuel stations by distance and price using Google Maps API, enabling accurate travel time estimates and smarter fuel recommendations",
+      "Engineered a fuel recommendation app using React, Node.js, and MongoDB that reduced fueling costs by 8% for 100+ users, by implementing live station price analysis and geolocation-based optimization.",
+      "Architected a 3-tier caching system with request collapsing and adaptive rate limiting, cutting API costs by 90%.",
     ],
     github: "https://github.com/krajani21/fuelWise",
     gradient: "from-primary to-accent",
@@ -27,10 +39,10 @@ const projects = [
   },
   {
     title: "Silent Signal",
-    description: "Real-time noise violation detector using Python, AWS, and React.js with Google's YAMNet model.",
-    tech: ["Python", "AWS", "React.js"],
+    description: "Built a real-time noise violation detection prototype using React.js, Python, and AWS Lambda, leveraging Google’s YAMNet model to classify 521+ sound categories with 95% accuracy.",
+    tech: ["React.js", "Python", "AWS"],
     highlights: [
-      "Built a real-time noise violation detection prototype using Python, AWS Lambda, and React.js, leveraging Google’s YAMNet model to classify 521+ sound categories with 95% accuracy.",
+      "Built a real-time noise violation detection prototype using React.js, Python, and AWS Lambda, leveraging Google’s YAMNet model to classify 521+ sound categories with 95% accuracy.",
     ],
     github: "https://github.com/krajani21/SilentSignal",
     gradient: "from-accent to-secondary",
